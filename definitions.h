@@ -26,4 +26,11 @@ enum {
 };
 
 enum {FALSE, TRUE};
+
+typedef struct
+{
+   int pieces[BDR_SQ_NUM];
+}S_BOARD;
+
+
 #endif
